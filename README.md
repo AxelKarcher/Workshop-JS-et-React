@@ -8,7 +8,7 @@ Il y avait bien quelque chose avant React.. :thinking:
   - Les types
   - Les fichiers et leur rôle dans un projet
 - Tester JavaScript dans une console web
->:warning: Tu n'as besoin d'installer aucun package de tout le workshop
+>:warning: Tu n'as besoin d'installer ni package ni aucune lib de tout le workshop
 
 ## Exo n°1 - Chronomètre
 Crée un chronomètre avec les fonctionnalitées basiques:
