@@ -1,18 +1,21 @@
 # Workshop JS - Introduction au JavaScript
 Il y avait bien quelque chose avant React.. :shipit:
 
+## Setup
+- Installer [VS Code](https://code.visualstudio.com/download) (ou sur le shop de votre OS)
+- Activer l'extension "Live Server" de Ritwick Dey
+- Utiliser le dossier "blank-project"
+
 ## Introduction
 - Pourquoi faire du JavaScript ?
 - Se renseigner avant de commencer:
+  - Le "non-typé"
   - Les opérateurs
-  - Les types
   - Les fichiers et leur rôle dans un projet
 - Tester JavaScript dans une console web
-```
-10 == "10" = ?
-10 === "10" = ?
-```
->:warning: Tu n'as besoin d'installer ni package ni aucune lib de tout le workshop
+- [Lancer un projet](https://streamable.com/83nsgw)
+- [Les boutons et getElement](https://streamable.com/6goi9z)
+>:warning: Tu n'as besoin d'installer ni package ni lib de tout le workshop
 
 ## Exo n°1 - Chronomètre
 Crée un chronomètre avec les fonctionnalitées basiques:
