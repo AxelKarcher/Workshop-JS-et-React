@@ -2,8 +2,8 @@
 Il y avait bien quelque chose avant React.. :shipit:
 
 ## Setup
-- Installer [VS Code](https://code.visualstudio.com/download) (ou sur le shop de votre OS)
-- Activer l'extension "Live Server" de Ritwick Dey
+- Installer [VS Code](https://code.visualstudio.com/download)
+- Y activer l'extension "Live Server" de Ritwick Dey
 - Utiliser le dossier ["blank-project"](./blank-project/)
 
 ## Introduction
