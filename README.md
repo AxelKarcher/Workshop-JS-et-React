@@ -10,7 +10,7 @@ Il y avait bien quelque chose avant React.. :shipit:
 - Pourquoi faire du JavaScript ?
 - Se renseigner avant de commencer:
   - Le "non-typé"
-  - Les opérateurs
+  - L'opérateur de comparaison "==="
   - Les fichiers et leur rôle dans un projet
 - Tester JavaScript dans une console web
 - [Lancer un projet](https://streamable.com/83nsgw)
@@ -50,6 +50,6 @@ _Les web components sont très importants dans le développement Front. Ils perm
 Aujourd'hui avec React, Angular ou d'autres frameworks, créer un component est très simple et très rapide. Mais comment faire en JS "pur" ?_
 
 Crée un component "Counter" avec comme propriétés:
-- Le taux d'incrémentation (+1 ou +5 ou -10)
+- Le taux d'incrémentation (par ex: +1, +5 ou -10)
 - Le label (nom/titre) du counter
 >:grey_exclamation:	Si tu en as en tête, crée plus de props ou un tout autre component !
