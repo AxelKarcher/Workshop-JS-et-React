@@ -36,9 +36,8 @@ Crée une calculatrice avec les opérateurs et features de base:
 - Diviser
 - Reset
 
->:grey_exclamation: Pour la partie calcul il y a plusieurs possibilités, je te conseille de te renseigner sur eval()
-
 ![exo-2](./assets/exo2.png)
+>:grey_exclamation: Pour la partie calcul il y a plusieurs possibilités, je te conseille de te renseigner sur eval()
 
 ## (Facultatif) Exo n°3 - "Guess the color" (JS)
 Crée un jeu dont le but est de déterminer la couleur donnée aléatoirement en RGB.
@@ -46,9 +45,8 @@ Le jeu en lui-même aura 2 difficultées:
 - Easy: 3 propositions et 1 vie
 - Hard: 6 propositions et 2 vies
 
->:grey_exclamation: Un p'tit man google pour comment générer de l'aléatoire en JS 😉
-
 ![exo-3](./assets/exo3.png)
+>:grey_exclamation: Un p'tit man google pour comment générer de l'aléatoire en JS 😉
 
 ## Exo n°4 - Routing (React)
 Crée deux pages simples (ex: Home et About) et trouve un moyen de naviguer entre-elles
