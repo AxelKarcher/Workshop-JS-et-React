@@ -52,16 +52,17 @@ Le jeu en lui-même aura 2 difficultées:
 
 ## Exo n°4 - Routing (React)
 Crée deux pages simples (ex: Home et About) et trouve un moyen de naviguer entre-elles
+installer node, react, âckage routing
 
 >:grey_exclamation:	N'oublie pas d'utiliser le ["blank-project"](./blank-project/) React !
 
 ## Exo n°5 - Premier component (React)
 _Les web components sont très importants dans le développement Front. Ils permettent de factoriser efficacement son code, le rendant plus lisible et plus facilement modifiable._
 
-Crée un component "Counter" avec comme propriétés:
+Modifie un nombre à l'aide de components "Counter" qui auront comme propriétés:
 - Le taux d'incrémentation en choix (ex: +1, +5 ou -10)
 - Le label (nom/titre) du counter
-Ajoute aussi un bouton qui reset les valeurs (qui ne s'affiche que si une valeur a été modifiée).
+Ajoute aussi un bouton qui reset le nombre (qui ne s'affiche que si une valeur a est différente de 0).
 >:grey_exclamation:	Si tu en as en tête, crée plus de props !
 
 ## Exo n°6 - Un clique, un drapeau (React)
@@ -70,12 +71,4 @@ Crée un bouton qui à chaque clique affiche aléatoirement le drapeau d'un pays
 >:grey_exclamation:	Pour gérer des requêtes API, renseigne-toi sur "axios".
 
 ## Exo final - Mini-projet (React)
-Crée une page affichant les drapeaux du monde. Cliquer sur un drapeau affiche (de la façon que tu veux) des informations sur le pays correspondant:
-- Nom du pays
-- Capitale
-- Population
-
-Le nombre de drapeaux affichés doit pouvoir varier grâce à un input de type "range".
-5 inputs "radios" permetteront d'afficher uniquement les pays du continent sélectionné.
-
->:grey_exclamation:	N'oublie pas un bouton permettant de reset la sélection.
+pendu
