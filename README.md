@@ -48,11 +48,17 @@ Le jeu en lui-même aura 2 difficultées:
 ![exo-3](./assets/exo3.png)
 >:grey_exclamation: Un p'tit man google pour comment générer de l'aléatoire en JS 😉
 
+## Préparation à React
+- Installer Node.js (ex avec apt: sudo apt install nodejs)
+- Installer npm (ex avec apt: sudo apt install npm)
+- Viens me voir que je te brief en express avant de passer à la suite !
+
+>:grey_exclamation:	Pour les exos suivant n'oublies pas d'utiliser le ["blank-project"](./blank-project/) React !
+
 ## Exo n°4 - Routing (React)
 Crée deux pages simples (ex: Home et About) et trouve un moyen de naviguer entre-elles
-installer node, react, âckage routing
 
->:grey_exclamation:	N'oublie pas d'utiliser le ["blank-project"](./blank-project/) React !
+>:grey_exclamation: Les packages react-router-dom et MUI sont déjà installés dans "blank-project". Renseignes-toi sur leur utilité
 
 ## Exo n°5 - Premier component (React)
 _Les web components sont très importants dans le développement Front. Ils permettent de factoriser efficacement son code, le rendant plus lisible et plus facilement modifiable._
@@ -62,11 +68,6 @@ Modifie un nombre à l'aide de components "Counter" qui auront comme propriété
 - Le label (nom/titre) du counter
 Ajoute aussi un bouton qui reset le nombre (qui ne s'affiche que si une valeur a est différente de 0).
 >:grey_exclamation:	Si tu en as en tête, crée plus de props !
-
-## Exo n°6 - Un clique, un drapeau (React)
-Crée un bouton qui à chaque clique affiche aléatoirement le drapeau d'un pays. Base toi sur cette URL pour ta requête API: 
-
->:grey_exclamation:	Pour gérer des requêtes API, renseigne-toi sur "axios".
 
 ## Exo final - Mini-projet (React)
 pendu
