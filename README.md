@@ -56,18 +56,27 @@ Le jeu en lui-même aura 2 difficultées:
 >:grey_exclamation:	Pour les exos suivant n'oublies pas d'utiliser le ["blank-project"](./blank-project/) React !
 
 ## Exo n°4 - Routing (React)
-Crée deux pages simples (ex: Home et About) et trouve un moyen de naviguer entre-elles
+Crée deux pages simples "CounterPage" et "HangmanPage" puis trouve un moyen de naviguer entre-elles
 
->:grey_exclamation: Les packages react-router-dom et MUI sont déjà installés dans "blank-project". Renseignes-toi sur leur utilité
+![exo-4](./assets/exo4.png)
+>:grey_exclamation: Les packages react-router-dom et MUI sont déjà installés dans le "blank-project" React. Renseignes-toi sur leur utilité pour savoir quoi faire
 
 ## Exo n°5 - Premier component (React)
 _Les web components sont très importants dans le développement Front. Ils permettent de factoriser efficacement son code, le rendant plus lisible et plus facilement modifiable._
 
-Modifie un nombre à l'aide de components "Counter" qui auront comme propriétés:
-- Le taux d'incrémentation en choix (ex: +1, +5 ou -10)
-- Le label (nom/titre) du counter
-Ajoute aussi un bouton qui reset le nombre (qui ne s'affiche que si une valeur a est différente de 0).
->:grey_exclamation:	Si tu en as en tête, crée plus de props !
+Créé un component "CounterElem" avec lequel tu pourras modifier une valeur que tu afficheras. Le component aura comme propriétés:
+- La valeur
+- Si elle est positive ou négative
+- Quoi faire quand le bouton "Send" est clické
+
+Créé des bontons pour ajouter les features suivantes:
+- Ajouter un CounterElem
+- Supprimer un CounterElem
+- Reset de la variable
+- Reset du nombre de CounterElem
+
+![exo-5](./assets/exo5.png)
+>:grey_exclamation: N'hésite pas à passer me voir si tu penses être bloqué !
 
 ## Exo final - Mini-projet (React)
 pendu
