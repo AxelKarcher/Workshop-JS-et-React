@@ -1,0 +1,11 @@
+#appContainer {
+  user-select: none;
+  height: 100vh;
+  color: lightgrey;
+  background-color: rgb(41, 41, 41);
+  font-size: 30px;
+}
+
+#appContainer Button {
+  background-color: black;
+}
