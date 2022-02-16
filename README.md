@@ -51,6 +51,7 @@ Le jeu en lui-même aura 2 difficultées:
 ## Préparation à React
 - Installer Node.js (ex avec apt: `sudo apt install nodejs`)
 - Installer npm (ex avec apt: `sudo apt install npm`)
+- Fais `npm i` pour récupérer les modules utilisés
 - Lance le projet avec `npm start`
 - Viens me voir que je te brief en express avant de passer à la suite !
 
