@@ -3,8 +3,8 @@ Commençons par l'avant-React.. :shipit:
 
 ## Setup
 - Installer [VS Code](https://code.visualstudio.com/download)
-- Y activer l'extension "Live Server" de Ritwick Dey
-- Utiliser un dossier ["blank-project"](./blank-project/) correspondant au language utilisé pour chaque éxo
+- Y activer l'extension "Live Server" de Ritwick Dey (partie JS)
+- Utiliser un dossier "blank-project" correspondant au language utilisé pour chaque éxo
 
 ## Introduction
 - Pourquoi faire du JavaScript (JS) ?
@@ -55,7 +55,7 @@ Le jeu en lui-même aura 2 difficultées:
 - Lance le projet avec `npm start`
 - Viens me voir que je te brief en express avant de passer à la suite !
 
->:grey_exclamation:	Pour les exos suivant n'oublies pas d'utiliser le ["blank-project"](./blank-project/) React !
+>:grey_exclamation:	Pour les exos suivant n'oublies pas d'utiliser le ["react-blank-project"](./react-blank-project/) React !
 
 ## Exo n°4 - Routing (React)
 Crée deux pages simples "CounterPage" et "CallsPage" puis trouve un moyen de naviguer entre-elles
