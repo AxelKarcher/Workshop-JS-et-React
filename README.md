@@ -49,14 +49,15 @@ Le jeu en lui-même aura 2 difficultées:
 >:grey_exclamation: Un p'tit man google pour comment générer de l'aléatoire en JS 😉
 
 ## Préparation à React
-- Installer Node.js (ex avec apt: sudo apt install nodejs)
-- Installer npm (ex avec apt: sudo apt install npm)
+- Installer Node.js (ex avec apt: `sudo apt install nodejs`)
+- Installer npm (ex avec apt: `sudo apt install npm`)
+- Lance le projet avec `npm start`
 - Viens me voir que je te brief en express avant de passer à la suite !
 
 >:grey_exclamation:	Pour les exos suivant n'oublies pas d'utiliser le ["blank-project"](./blank-project/) React !
 
 ## Exo n°4 - Routing (React)
-Crée deux pages simples "CounterPage" et "HangmanPage" puis trouve un moyen de naviguer entre-elles
+Crée deux pages simples "CounterPage" et "CallsPage" puis trouve un moyen de naviguer entre-elles
 
 ![exo-4](./assets/exo4.png)
 >:grey_exclamation: Les packages react-router-dom et MUI sont déjà installés dans le "blank-project" React. Renseignes-toi sur leur utilité pour savoir quoi faire
@@ -78,5 +79,17 @@ Créé des bontons pour ajouter les features suivantes:
 ![exo-5](./assets/exo5.png)
 >:grey_exclamation: N'hésite pas à passer me voir si tu penses être bloqué !
 
-## Exo final - Mini-projet (React)
-pendu
+## Exo n°6 - Quelques API (React)
+_Il existe plusieurs façon de faire des calls API (fetch, xhr...), ici nous utiliserons axios._
+
+Pour finir ce workshop je vous propose de "demander" et afficher des images de chats.
+Voici le lien de l'API: https://aws.random.cat/meow?ref=apilist.fun
+
+Libre à toi de chercher d'autres API simples du même genre à utiliser. Et pourquoi faire un component qui comprend:
+- Un titre
+- Un lien API
+- Un bouton d'envoi
+- Une zone d'affichage
+
+![exo-6](./assets/exo6.png)
+>:grey_exclamation: Renseigne-toi sur comment afficher des images en JS/React
