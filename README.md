@@ -36,9 +36,8 @@ Crée une calculatrice avec les opérateurs et features de base:
 - Diviser
 - Reset
 
->:grey_exclamation: Pour la partie calcul il y a plusieurs possibilités, je te conseille de te renseigner sur eval()
-
 ![exo-2](./assets/exo2.png)
+>:grey_exclamation: Pour la partie calcul il y a plusieurs possibilités, je te conseille de te renseigner sur eval()
 
 ## (Facultatif) Exo n°3 - "Guess the color" (JS)
 Crée un jeu dont le but est de déterminer la couleur donnée aléatoirement en RGB.
@@ -46,36 +45,38 @@ Le jeu en lui-même aura 2 difficultées:
 - Easy: 3 propositions et 1 vie
 - Hard: 6 propositions et 2 vies
 
+![exo-3](./assets/exo3.png)
 >:grey_exclamation: Un p'tit man google pour comment générer de l'aléatoire en JS 😉
 
-![exo-3](./assets/exo3.png)
+## Préparation à React
+- Installer Node.js (ex avec apt: sudo apt install nodejs)
+- Installer npm (ex avec apt: sudo apt install npm)
+- Viens me voir que je te brief en express avant de passer à la suite !
+
+>:grey_exclamation:	Pour les exos suivant n'oublies pas d'utiliser le ["blank-project"](./blank-project/) React !
 
 ## Exo n°4 - Routing (React)
-Crée deux pages simples (ex: Home et About) et trouve un moyen de naviguer entre-elles
+Crée deux pages simples "CounterPage" et "HangmanPage" puis trouve un moyen de naviguer entre-elles
 
->:grey_exclamation:	N'oublie pas d'utiliser le ["blank-project"](./blank-project/) React !
+![exo-4](./assets/exo4.png)
+>:grey_exclamation: Les packages react-router-dom et MUI sont déjà installés dans le "blank-project" React. Renseignes-toi sur leur utilité pour savoir quoi faire
 
 ## Exo n°5 - Premier component (React)
 _Les web components sont très importants dans le développement Front. Ils permettent de factoriser efficacement son code, le rendant plus lisible et plus facilement modifiable._
 
-Crée un component "Counter" avec comme propriétés:
-- Le taux d'incrémentation en choix (ex: +1, +5 ou -10)
-- Le label (nom/titre) du counter
-Ajoute aussi un bouton qui reset les valeurs (qui ne s'affiche que si une valeur a été modifiée).
->:grey_exclamation:	Si tu en as en tête, crée plus de props !
+Créé un component "CounterElem" avec lequel tu pourras modifier une valeur que tu afficheras. Le component aura comme propriétés:
+- La valeur
+- Si elle est positive ou négative
+- Quoi faire quand le bouton "Send" est clické
 
-## Exo n°6 - Un clique, un drapeau (React)
-Crée un bouton qui à chaque clique affiche aléatoirement le drapeau d'un pays. Base toi sur cette URL pour ta requête API: 
+Créé des bontons pour ajouter les features suivantes:
+- Ajouter un CounterElem
+- Supprimer un CounterElem
+- Reset de la variable
+- Reset du nombre de CounterElem
 
->:grey_exclamation:	Pour gérer des requêtes API, renseigne-toi sur "axios".
+![exo-5](./assets/exo5.png)
+>:grey_exclamation: N'hésite pas à passer me voir si tu penses être bloqué !
 
 ## Exo final - Mini-projet (React)
-Crée une page affichant les drapeaux du monde. Cliquer sur un drapeau affiche (de la façon que tu veux) des informations sur le pays correspondant:
-- Nom du pays
-- Capitale
-- Population
-
-Le nombre de drapeaux affichés doit pouvoir varier grâce à un input de type "range".
-5 inputs "radios" permetteront d'afficher uniquement les pays du continent sélectionné.
-
->:grey_exclamation:	N'oublie pas un bouton permettant de reset la sélection.
+pendu
