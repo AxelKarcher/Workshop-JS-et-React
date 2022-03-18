@@ -1,0 +1,20 @@
+#counterElemContainer {
+  display: flex;
+  background-color: white;
+  color: black;
+  padding: 2vh;
+  border-radius: 10px;
+  margin: 2vh 0px;
+}
+
+#counterElemContainer Button {
+  height: 'inherit'
+}
+
+#counterElemContainer Button:nth-child(1) {
+  margin-right: 1vh;
+}
+
+#counterElemContainer Button:nth-child(3) {
+  margin-left: 1vh;
+}

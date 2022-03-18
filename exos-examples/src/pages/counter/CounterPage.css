@@ -1,0 +1,29 @@
+#counterContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#topPart {
+  margin-bottom: 7vh;
+}
+
+#valueDisplayPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#bottomPart {
+  position: absolute;
+  bottom: 1vh;
+}
+
+#bottomPart Button {
+  width: 6vw;
+  margin-left: 0.5vh;
+  margin-right: 0.5vh;
+}
